@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: remm-springboot
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: remm-springboot
